@@ -253,9 +253,9 @@ def i():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
-        
-       
-        print('\033[1;36m TOTAL IDS: '+tl)
+   
+    
+        print('\033[1;36m TOTAL IDS: '(+tl)
         print('\033[1;36m THE PROCESS HAS BEEN STARTED')
         print('\033[1;31m USE AEROPLANE MOOD IN EVERY 5 MIN ')
         print('\033[1;32m••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••')
