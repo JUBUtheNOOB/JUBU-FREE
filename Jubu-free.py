@@ -1,4 +1,4 @@
-#R1F4T 
+
 #My_Project
 
 import os
@@ -253,7 +253,25 @@ def i():
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
+os.system("clear")
 
+    print(logo)
+
+    passx = int(input("[*] Enter Password Limit : "))
+
+    HamiiID = []
+
+    print("")
+
+    for bilal in range(passx):
+
+        pww = input("[*] Enter Password : ")
+
+        HamiiID.append(pww)
+
+    with ThreadPool(max_workers=50) as manshera:
+
+        clear()
         tl = str(len(user))
         print('\033[1;36m TOTAL IDS: '+tl)
         print('\033[1;36m THE PROCESS HAS BEEN STARTED')
