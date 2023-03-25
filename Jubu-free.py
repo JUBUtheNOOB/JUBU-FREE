@@ -9,7 +9,7 @@ import uuid
 os.system('git pull')
 os.system('pkg install curl')
 
-logo = (""""\033[132m🅁①
+logo = (""""\033[132m
     _____  __    __  _______   __    __ 
    /     |/  |  /  |/       \ /  |  /  |
    $$$$$ |$$ |  $$ |$$$$$$$  |$$ |  $$ |
@@ -164,7 +164,7 @@ ta = current.year
 bu = current.month
 ha = current.day
 today = date.today()
-logo = ("""\033[132m🅁①
+logo = ("""\033[132m
     _____  __    __  _______   __    __ 
    /     |/  |  /  |/       \ /  |  /  |
    $$$$$ |$$ |  $$ |$$$$$$$  |$$ |  $$ |
